@@ -17,4 +17,5 @@ public class SequenceAlignmentParameters {
         put('G', 2);
         put('T', 3);
     }};
+    public static final String RUN_BASIC_ALGORITHM = "basic";
 }

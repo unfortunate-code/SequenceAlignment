@@ -11,7 +11,7 @@ public class SequenceAlignmentMain {
     public static void main(String[] args) {
         List<String> sequences = parseInput();
         SequenceAlignment sequenceAlignment;
-        if (args[0].equals("basic")) {
+        if (args[0].equals(SequenceAlignmentParameters.RUN_BASIC_ALGORITHM)) {
             sequenceAlignment = new BasicSequenceAlignment();
         } else {
             sequenceAlignment = new EfficientSequenceAlignment();
